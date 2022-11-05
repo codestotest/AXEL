@@ -1,0 +1,210 @@
+
+@media all and (min-width: 375px){
+  body{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    background-color: #000;
+  }
+
+  #main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+  }
+
+  .brand-logo{
+    width: 15rem;
+    position: absolute;
+    top: 4%;
+    left: 51%;
+    transform: translate(-50%);
+  }
+
+  .wheel-outer{
+    position: absolute;
+    width: 300px;
+    right:0.1%;
+    left: 0;
+    top: 0;
+    bottom: 14%;
+    margin: auto;
+  }
+
+  .wheel-inner{
+    position: absolute;
+    width: 250px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 14%;
+    margin: auto;
+    /* transition: 3s; */
+  }
+
+  .pointer{
+    /* transform: rotate(180deg); */
+    position: absolute;
+    width: 80px;
+    top: 0;
+    bottom: 350px;
+    margin: auto;
+  }
+
+  .bottom-conntainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .products{
+    width: 13.5rem;
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .spin-btn{
+    width: 15rem;
+    height: 3rem;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    background-image: url("../images/spinbtn.png");
+    background-size: cover;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .links-text{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    bottom: 2%;
+    width: auto;
+  }
+
+  .website{
+    left: 0%;
+  }
+
+  .facebook{
+    right: 0%;
+  }
+
+  .card-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .card{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 18rem;
+    height: 10rem;
+    border-radius: 30px;
+  }
+
+  .card-title{
+    font-weight: bold;
+  }
+
+  .burgundy-card{
+    background: rgb(88,3,67);
+    background: -webkit-linear-gradient(270deg, rgba(88,3,67,1) 0%, rgba(90,52,62,1) 100%);
+    background: -o-linear-gradient(270deg, rgba(88,3,67,1) 0%, rgba(90,52,62,1) 100%);
+    background: linear-gradient(180deg, rgba(88,3,67,1) 0%, rgba(90,52,62,1) 100%);
+    color: #f4b41c;
+    border: 5px solid #f4b41c;
+  }
+
+  .orange-card{
+      background: rgb(241,113,33);
+      background: -webkit-linear-gradient(rgba(241,113,33,1) 0%, rgba(244,189,27,1) 100%);
+      background: -o-linear-gradient(rgba(241,113,33,1) 0%, rgba(244,189,27,1) 100%);
+      background: linear-gradient(rgba(241,113,33,1) 0%, rgba(244,189,27,1) 100%);
+      color: #591741;
+      border: 5px solid #591741;
+    }
+
+  .card-text{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .visible{
+    display: block;
+  }
+
+}
+
+@media all and (min-width: 1000px){
+  #main{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .brand-logo{
+    width: 15rem;
+  }
+
+  .wheel-outer{
+    width: 400px;
+    transform: rotate(1deg);
+    bottom: 7.5%;
+  }
+
+  .wheel-inner{
+    width: 350px;
+    bottom: 7.5%;
+  }
+
+  .pointer{
+    bottom: 400px;
+  }
+
+  .products{
+    width: 20rem;
+    bottom: 0;
+    left: 15%;
+  }
+
+  .spin-btn{
+    border-radius: 25px;
+    background-position:  center;
+    width: 20rem;
+    bottom: 15%;
+  }
+
+  .website{
+    font-size: 1.2rem;
+    bottom:6%;
+    right: 0;
+    left: auto;
+  }
+
+  .facebook{
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+  }
+}
